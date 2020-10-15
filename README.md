@@ -4,20 +4,20 @@ For each algorithm, and for each n = 100, 200, 300, 400, 500, 1000, 4000, 10000,
 
 Note:
 
-    - You may have to repeat the algorithm many times, each time you need to initialize the array.
+- You may have to repeat the algorithm many times, each time you need to initialize the array.
 
-    - Your running time should exclude the time for initialization. 
+- Your running time should exclude the time for initialization. 
 
-    - All measurement should be done in a single run, i.e. you do not need to run once for n=100, another time for n=200, etc
+- All measurement should be done in a single run, i.e. you do not need to run once for n=100, another time for n=200, etc
 
  
 
 What to turn in:
 
-    - Well documented source code in C++
+- Well documented source code in C++
 
-    - Report the number of steps and the CPU running time in a table (Add this result in your previous table).
+- Report the number of steps and the CPU running time in a table (Add this result in your previous table).
 
-    - Plot the running time of the algorithm results (Add this result in your previous plot).
+- Plot the running time of the algorithm results (Add this result in your previous plot).
 
-    - Approximation the constant c in the complexity of heap sort (cnlgn) by inspecting the results
+- Approximation the constant c in the complexity of heap sort (cnlgn) by inspecting the results
