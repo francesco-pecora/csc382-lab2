@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 from scipy import optimize
 import numpy as np
+import math
 
 class Visualizer:
 
@@ -9,16 +10,15 @@ class Visualizer:
 
     def printSingleRunValues(self, heapTimes, heapSteps):
         '''
-        function that prints information about each run of the two algorithms
-        heapTimes -> list of CPU times for insertion sort
-        heapSteps -> list of operations during insertion sort
-        mergeTimes -> list of CPU times for merge sort
+        function that prints information about each run of the algorithm
+        heapTimes -> list of CPU times for heap sort
+        heapSteps -> list of operations during heap sort
         '''
         for i in range(len(self.inputs)):
             print('Input Size: ', self.inputs[i])
-            print('Insertion CPU Time: ', heapTimes[i], 'x 10^(-2) seconds')
-            print('Insertion Steps: ', heapSteps[i])
-            print('C constant: ', float(heapSteps[i]) / (self.inputs[i] ** 2.0))
+            print('Heap CPU Time: ', heapTimes[i], 'x 10^(-2) seconds')
+            print('Heap Steps: ', heapSteps[i])
+            print('C constant: ', float(heapSteps[i]) / (self.inputs[i] * math.log2(self.inputs[i])))
             print()
 
     

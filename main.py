@@ -17,13 +17,13 @@ def runHeapSort(arr):
 
 def runSortedArrays(inputs):
     '''
-    function that performs multiple runs on both Heap
-    sort and merge sort using sorted arrays as input for the sort
+    function that performs a run on Heap
+    sort using sorted arrays as input
     inputs -> array of input sizes
     return -> info about the two algorithm runs (time and steps for each one)
     '''
-    heapTimes = []         # cpu time for merge sort
-    heapSteps = []         # num of operations for merge sort
+    heapTimes = []         # cpu time for heap sort
+    heapSteps = []         # num of operations for heap sort
 
     for inputSize in inputs:
         generator = Generator(inputSize)
@@ -38,13 +38,13 @@ def runSortedArrays(inputs):
 
 def runReversedSortedArrays(inputs):
     '''
-    function that performs multiple runs on both Heap
-    sort and merge sort using reversed sorted arrays as input for the sort
+    function that performs a run on Heap sort
+    using reversed sorted arrays as input
     inputs -> array of input sizes
     return -> info about the two algorithm runs (time and steps for each one)
     '''
-    heapTimes = []         # cpu time for merge sort
-    heapSteps = []         # num of operations for merge sort
+    heapTimes = []         # cpu time for heap sort
+    heapSteps = []         # num of operations for heap sort
 
     for inputSize in inputs:
         generator = Generator(inputSize)
@@ -59,13 +59,13 @@ def runReversedSortedArrays(inputs):
 
 def runRandomPermutationArrays(inputs):
     '''
-    function that performs multiple runs on both Heap
-    sort and merge sort using random permutations as input for the sort
+    function that performs a run on heap sort
+    using random permutations as input
     inputs -> array of input sizes
     return -> info about the two algorithm runs (time and steps for each one)
     '''
-    heapTimes = []         # cpu time for merge sort
-    heapSteps = []         # num of operations for merge sort
+    heapTimes = []         # cpu time for heap sort
+    heapSteps = []         # num of operations for heap sort
 
     for inputSize in inputs:
         generator = Generator(inputSize)
@@ -81,9 +81,9 @@ def runRandomPermutationArrays(inputs):
 def run50RandomInRangeArrays(inputs):
     '''
     function that generates n arrays of n random numbers (n is each entry in inputs)
-    and returns info about the runs in the form of average of the n runs
+    and returns info about the run in the form of average of the n runs
     inputs -> list of array sizes
-    return -> average info about the two algorithm runs (time and steps for each one)
+    return -> average info about the algorithm runs (time and steps for each one)
     '''
     finalHeapTimes = []     # cpu time for Heap sort
     finalHeapSteps = []     # num of operations for Heap sort
