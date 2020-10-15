@@ -14,7 +14,7 @@ Note:
 
 What to turn in:
 
-- Well documented source code in C++
+- Well documented source code in Python
 
 - Report the number of steps and the CPU running time in a table (Add this result in your previous table).
 
