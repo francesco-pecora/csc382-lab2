@@ -73,7 +73,7 @@ C constant:  10.748170634683966                 </br>
 
 [STILL RUNNING] wait for the new output...
 
-- REVERSED SORTED ARRAYS -
+### REVERSED SORTED ARRAYS
 
 Input Size:  100                                </br>
 Heap CPU Time:  0.05446 x 10^(-2) seconds       </br>
@@ -141,7 +141,7 @@ C constant:  9.511652298744705                  </br>
 
 [STILL RUNNING] wait for the new output...
 
-- RANDOM PERMUTATION ARRAYS -
+### RANDOM PERMUTATION ARRAYS
 
 Input Size:  100                                </br>
 Heap CPU Time:  0.05319 x 10^(-2) seconds       </br>
@@ -209,7 +209,7 @@ C constant:  9.511652298744705                  </br>
 
 [STILL RUNNING] wait for the new output...
 
-- 50 RANDOM ARRAYS EACH RUN -
+### 50 RANDOM ARRAYS EACH RUN
 
 Input Size:  100                                </br>
 Heap CPU Time:  0.05821700000000002 x 10^(-2) seconds       </br>
